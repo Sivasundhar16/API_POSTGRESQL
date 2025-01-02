@@ -32,3 +32,7 @@ export const getUser = async (req, res) => {
 
   res.json(formattedOrders);
 };
+
+export const postUser = async (req, res) => {};
+export const updateUser = async (req, res) => {};
+export const deletUser = async (req, res) => {};
