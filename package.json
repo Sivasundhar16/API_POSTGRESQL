@@ -2,10 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "seed":"node database/seed.js"
+    "seed": "node database/seed.js"
   },
   "keywords": [],
   "author": "",
