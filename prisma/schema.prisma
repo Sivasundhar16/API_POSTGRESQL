@@ -13,7 +13,7 @@ model Customer {
   phone   String
   email   String  @unique
   address String
-  orders  Order[]
+  orders  Order[]  //foreign key
 }
 
 model Product {

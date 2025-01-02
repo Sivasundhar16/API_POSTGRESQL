@@ -8,6 +8,9 @@ import {
 
 const router = Router();
 
-router.get("/customer", getUser);
+router.get("/user", getUser);
+router.get("/newuser", postUser);
+router.get("/updateuser", updateUser);
+router.get("/deletuser", deletUser);
 
 export default router;
